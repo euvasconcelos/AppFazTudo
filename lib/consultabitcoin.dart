@@ -17,7 +17,7 @@ class _ConsultaBitcoinState extends State<ConsultaBitcoin> {
 
   _consultabitcoin() async {
     String real = txtreal.text;
-    String url = "https://blockchain.info/pt/ticker";
+    String url = "https://blockchain.info/ticker";
 
     http.Response response;
     response = await http.get(url);
